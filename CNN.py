@@ -54,7 +54,7 @@ classifier.fit_generator(training_set,
 #4. Making new prediction
 import numpy as np
 from keras.preprocessing import image
-test_image=image.load_image('samples.png',target_size=(160,160))
+test_image=image.load_image('samples.jpg',target_size=(160,160))
 test_image=image.img_to_array(test_image)
 test_image=np.expand_dims(test_image,axis=0)
 result=classifier.predict(test_image)
