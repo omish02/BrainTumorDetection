@@ -1,2 +1,2 @@
 # BrainTumorDetection
-Detection of presence Tumor or not in scanned MRI images of Human Brain.
+Detection of presence tumor or not in scanned MRI images of human brain.
